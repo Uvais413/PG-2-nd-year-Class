@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Subject | Islamic Portal</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="header">
+    <h1 id="subjectTitle">Subject Name</h1>
+  </header>
+
+  <main class="subject-content">
+    <section class="overview">
+      <h2>📌 Class Points</h2>
+      <ul id="pointsList"></ul>
+    </section>
+
+    <section class="notes">
+      <h2>📄 Class Notes</h2>
+      <p id="classNotes"></p>
+    </section>
+
+    <section class="audio">
+      <h2>🎧 Listen to Class</h2>
+      <audio id="classAudio" controls>
+        <source src="" type="audio/mpeg">
+        Your browser does not support audio playback.
+      </audio>
+    </section>
+
+    <section class="pdf-section">
+      <h2>📥 PDF Material</h2>
+      <iframe id="pdfViewer" width="100%" height="500px"></iframe>
+    </section>
+
+    <section class="links">
+      <h2>🔗 More to Read</h2>
+      <ul id="moreLinks"></ul>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>&copy; 2025 Islamic Learning Project</p>
+  </footer>
+
+  <script src="../js/subject.js"></script>
+</body>
+</html>

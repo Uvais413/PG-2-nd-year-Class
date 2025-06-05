@@ -1,0 +1,207 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+  font-family: 'Segoe UI', sans-serif;
+  line-height: 1.6;
+  background: #f9f9f9;
+  color: #333;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Header */
+.header {
+  background: #004d40;
+  color: #fff;
+  text-align: center;
+  padding: 2rem 1rem;
+}
+
+/* Main */
+.main-content {
+  flex: 1;
+  padding: 2rem;
+  text-align: center;
+}
+
+.intro h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.btn-primary {
+  display: inline-block;
+  margin-top: 1.5rem;
+  padding: 0.75rem 1.5rem;
+  background: #009688;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  transition: background 0.3s ease;
+}
+
+.btn-primary:hover {
+  background: #00796b;
+}
+
+/* Footer */
+.footer {
+  background: #eee;
+  text-align: center;
+  padding: 1rem;
+  font-size: 0.9rem;
+  color: #555;
+}
+.login-container {
+  max-width: 400px;
+  margin: 100px auto;
+  padding: 2rem;
+  background: #ffffff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+.login-container h2 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.login-container input {
+  width: 100%;
+  padding: 0.8rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.login-container button {
+  width: 100%;
+  padding: 0.8rem;
+  background-color: #00796b;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.login-container button:hover {
+  background-color: #004d40;
+}
+
+#loginMessage {
+  text-align: center;
+  margin-top: 1rem;
+  color: red;
+}
+
+.dashboard {
+  padding: 2rem;
+}
+
+.subjects h2 {
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.subject-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: 1rem;
+}
+
+.subject-card {
+  background-color: #ffffff;
+  padding: 1rem;
+  border-radius: 10px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: transform 0.2s;
+  cursor: pointer;
+}
+
+.subject-card:hover {
+  transform: scale(1.05);
+  background-color: #e0f2f1;
+}
+
+.subject-card h3 {
+  margin-bottom: 0.5rem;
+  color: #00796b;
+}
+
+.links {
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.btn-secondary {
+  margin: 0.5rem;
+  padding: 0.75rem 1.5rem;
+  background: #004d40;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 8px;
+}
+
+
+.subject-content {
+  padding: 2rem;
+  line-height: 1.8;
+}
+
+.subject-content section {
+  margin-bottom: 2rem;
+}
+
+.subject-content h2 {
+  color: #00796b;
+  margin-bottom: 0.5rem;
+}
+
+#pointsList li {
+  margin-bottom: 0.5rem;
+}
+
+.profile-container {
+  padding: 2rem;
+  text-align: center;
+}
+
+.profile-container h2 {
+  margin-bottom: 1rem;
+  color: #00796b;
+}
+
+
+.feedback-form {
+  padding: 2rem;
+  max-width: 600px;
+  margin: auto;
+}
+
+.feedback-form form {
+  display: flex;
+  flex-direction: column;
+}
+
+.feedback-form label {
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+}
+
+.feedback-form input,
+.feedback-form textarea {
+  padding: 0.75rem;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
