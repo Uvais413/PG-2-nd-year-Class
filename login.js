@@ -1,6 +1,6 @@
 // Dummy student credentials
 const students = [
-  { username: "student1", password: "1234" },
+  { username: "Demo", password: "De.4" },
   { username: "student2", password: "1234" },
   { username: "student3", password: "1234" },
   { username: "student4", password: "1234" },
@@ -9,7 +9,10 @@ const students = [
   { username: "student7", password: "1234" },
   { username: "student8", password: "1234" },
   { username: "student9", password: "1234" },
-  { username: "student10", password: "1234" }
+  { username: "student10", password: "1234" },
+  { username: "student11", password: "1234" },
+  { username: "student12", password: "1234" },
+  { username: "student13", password: "1234" }
 ];
 
 document.getElementById("loginForm").addEventListener("submit", function (e) {

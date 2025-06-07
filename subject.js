@@ -1,4 +1,4 @@
-// Dummy content for each subject
+//  content for each subject
 const subjectData = {
   "Qur'an": {
     points: ["Revelation stages", "Makki vs Madani", "Tajweed basics"],

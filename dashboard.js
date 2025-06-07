@@ -5,7 +5,7 @@ const subjects = [
 
 // Show student name
 const user = localStorage.getItem("loggedInUser");
-document.getElementById("welcomeText").textContent = `Welcome, ${user}`;
+document.getElementById("welcomeText").textContent = `Welcome Mr, ${user}`;
 
 // Load subjects
 const subjectGrid = document.querySelector(".subject-grid");

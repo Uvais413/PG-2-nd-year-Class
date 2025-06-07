@@ -1,5 +1,5 @@
 const user = localStorage.getItem("loggedInUser");
-document.getElementById("profileName").textContent = `Welcome, ${user}`;
+document.getElementById("profileName").textContent = `Welcome Mr, ${user}`;
 
 // Show last login date
 const lastLogin = localStorage.getItem("lastLogin");
